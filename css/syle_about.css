@@ -1,0 +1,69 @@
+header {
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.about_bg {
+    position: absolute;
+    top: -2vh;
+    width: 100vw;
+    height: 100%;
+    background-image: url('../img/about/about_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.moduls {
+    border: none;
+    margin-top: 30vh;
+}
+
+#thank_you {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thank_you img {
+
+    height: auto;
+    width: 70%;
+}
+
+.website_img {
+    margin: auto 0 auto auto;
+    z-index: -1;
+}
+
+.website_img img {
+    width: 20vw;
+}
+
+@media only screen and (min-width:600px) {
+
+    #thank_you {
+        margin-top: 0;
+    }
+
+}
+
+
+@media only screen and (min-width:1000px) {
+
+
+    h1 {
+        font-size: 7rem;
+    }
+
+
+}
